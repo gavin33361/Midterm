@@ -1,0 +1,149 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: black; 
+  margin-bottom: 10%;
+}
+
+/*I use vw so scales with browser*/
+h1 {
+  color: white;
+  text-align: center;
+  font-size: 3vw;
+  }
+
+.header {
+  overflow: hidden;
+  padding: 10px 10px;
+  position: relative;
+}
+
+.header a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 4vh; 
+  line-height: 1.5em;
+  border-radius: 4px;
+}
+
+.header a:hover {
+  background-color: rgba(220,220,220,0.5);
+  color: black;
+}
+
+.header a.active {
+  font-weight: bold;
+  color: white;
+}
+
+.header-right {
+  float: right;
+}
+
+.logo {
+  background: url(../media/logo.png) no-repeat;
+  background-size: contain;
+  width: 5em;
+  height: 1.5em;
+}
+
+/*I use float left because I want image to be wrapped by text*/
+.image {
+  float:left;
+  padding-right: 1em;
+  width: 10em;
+  height: 15em;
+}
+
+/*I use justify so left has equal width and so the texts aren't right next to the border of browser*/
+.p1 {
+  color: white;
+  margin-right: 10%;
+  font-size: 3vh;
+  text-align: justify;
+  line-height: 2em;
+  margin-left: 10%;
+}
+
+.image:hover {
+  transform: scale(2);
+}
+
+/*display inline-block so that it only takes up the space it uses*/
+.synopsis
+{
+  display: inline-block;
+}
+
+.p2 {
+  color: white;
+  margin-left: 10%;
+  margin-right: 10%;
+  font-size: 3vh;
+  text-align: justify;
+}
+
+/*change size of the star pictures*/
+.star-icon {
+    color: white;
+    font-size: 2em;
+    position: relative;
+}
+
+/*content covers the stars with a full star and absolute puts it directly on top and set width to 50% and overflow 
+to hidden so half gets cut off before showing the image.*/
+.star-icon.full:before {
+    color: gold;
+    content: '\2605';
+    position: absolute;
+    left: 0;
+}
+
+.star-icon.half:before {
+    color: gold;
+    content: '\2605';
+    position: absolute;
+    left: 0;
+    width: 50%;
+    overflow: hidden;
+}
+
+/* changes font-size of the paragraphs following the previous review*/
+.p2 > a {
+  text-decoration: none;
+  color: white;
+  font-size: 4vh;
+}
+
+.p2 >a:hover {
+  text-decoration: underline;
+}
+
+.p3 {
+  color: white;
+  margin-left: 10%;
+  margin-right: 10%;
+  font-size: 3vh;
+  text-align: justify;
+}
+
+.p3 > a {
+  text-decoration: none;
+  color: white;
+  font-size: 2.5vh;
+}
+
+.p3 > a:hover {
+  text-decoration: underline;
+}
+
+/*I use % to scale image based on parent container*/
+.p3 > img {
+  float:left;
+  padding-right: 1em;
+  width: 4%;
+  height: 4%;
+}
+

@@ -1,0 +1,253 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: black;
+  margin-bottom: 10%;
+}
+
+.header {
+  overflow: hidden;
+  padding: 10px 10px;
+  position: relative;
+}
+
+.header a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 4vh; 
+  line-height: 1.5em;
+  border-radius: 4px;
+}
+
+.header a:hover {
+  background-color: rgba(220,220,220,0.5);
+  color: black;
+}
+
+.header a.active {
+  font-weight: bold;
+  color: white;
+}
+
+.header-right {
+  float: right;
+}
+
+.logo {
+  background: url(../media/logo.png) no-repeat;
+  background-size: contain;
+  width: 5em;
+  height: 1.5em;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  font-size: 3vw;
+}
+
+.container {
+  position:relative;
+  overflow: hidden;
+  height: 75vh;
+  max-height: 100%;
+}
+
+.container .slider {
+  position: relative;
+  width: 800%;
+  height: 100%;
+  animation: animate 20s linear infinite;
+}
+
+.container .slider .slide {
+  width: 12.5%;
+  height: 100%;
+  float: left;
+  }
+
+.container .slider .slide.slide1 {
+  background: url(../media/screen1.jpg) no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.container .slider .slide.slide2 {
+  background: url(../media/screen2.jpg) no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.container .slider .slide.slide3 {
+  background: url(../media/screen3.jpg) no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.container .slider .slide.slide4 {
+  background: url(../media/screen4.jpg) no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.container .slider .slide.slide5 {
+  background: url(../media/screen5.jpg) no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.container .slider .slide.slide6 {
+  background: url(../media/screen6.jpg)no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.container .slider .slide.slide7 {
+  background: url(../media/screen7.jpg) no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.container .slider .slide.slide8 {
+  background: url(../media/screen8.jpg) no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+@keyframes animate {
+  0%{
+    left: 0;
+  }
+  10%{
+    left: 0;
+  }
+  12.5%{
+    left: -100%;
+  }
+  22.5%{
+    left: -100%;
+  }
+  25%{
+    left: -200%;
+  }
+  35%{
+    left: -200%;
+  }
+  37.5%{
+    left: -300%;
+  }
+  47.5%{
+    left: -300%;
+  }
+  50%{
+    left: -400%;
+  }
+  60%{
+    left: -400%;
+  }
+  62.5%{
+    left: -500%;
+  }
+  72.5%{
+    left: -500%;
+  }
+  75%{
+    left: -600%;
+  }
+  85%{
+    left: -600%;
+  }
+  87.5%{
+    left: -700%;
+  }
+  97.5%{
+    left: -700%;
+  }
+  100% {
+    left: -800%;
+  }
+}
+
+.flex-box {
+  height: 75px;
+  max-height: 100%;
+  width: 810px;
+  max-width: 100%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  margin-top: 2%;
+}
+
+img {
+  width: 101.25px;
+  max-width: 100%;
+  max-height: 75vh;
+}
+
+@keyframes animate-one {
+  0% {
+    opacity: 1;
+  }
+  12.4% {
+    opacity: 1;
+  }
+  12.5% {
+    opacity: 0.5;
+  }
+} 
+
+.one {
+  opacity: .5 ;
+  animation: animate-one 20s linear infinite;
+}
+
+.two {
+  opacity: .5 ;
+  animation: animate-one 20s linear infinite;
+  animation-delay: 2.5s;
+}
+
+.three {
+  opacity: .5 ;
+  animation: animate-one 20s linear infinite;
+  animation-delay: 5s;
+}
+
+.four {
+  opacity: .5 ;
+  animation: animate-one 20s linear infinite;
+  animation-delay: 7.5s;
+}
+
+.five {
+  opacity: .5 ;
+  animation: animate-one 20s linear infinite;
+  animation-delay: 10s;
+}
+
+.six {
+  opacity: .5 ;
+  animation: animate-one 20s linear infinite;
+  animation-delay: 12.5s;
+}
+
+.seven {
+  opacity: .5 ;
+  animation: animate-one 20s linear infinite;
+  animation-delay: 15s;
+}
+
+.eight {
+  opacity: .5 ;
+  animation: animate-one 20s linear infinite;
+  animation-delay: 17.5s;
+}
+
+
+
+
+
