@@ -101,6 +101,7 @@ img {
   max-width: 384px;
   max-height: 216px;
   margin-top: 10%;
+  
 }
 
 .lightbox:target {
@@ -109,3 +110,11 @@ img {
   outline:none;
   display: block;
 } 
+
+@keyframes fadein {
+  0% {opacity:0;}
+  100% {opacity: 1;}
+}
+.fade {
+  animation: fadein 1s;
+}
