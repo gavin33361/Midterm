@@ -1,4 +1,4 @@
-# Final
+# Midterm
 I made a page for the 2012 Avengers movie. It's sort of like a fan page. 
 <br>
 I have 4 web pages: home, screenshots, about, and actors.
